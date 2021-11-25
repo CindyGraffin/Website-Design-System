@@ -59,3 +59,71 @@ img {
     max-width: 20%;
     height: auto;
 }
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+    align: center;
+    text-align: center;
+}
+
+.circle {
+  border-radius:50%;
+  width:80px;
+  height:80px;
+  background:cadetblue;
+  display: inline-block;
+  
+}
+
+#blue1 {
+    background:rgb(167, 201, 216);
+}
+#blue2 {
+    background:rgb(128, 168, 190);
+}
+#blue3 {
+    background:rgb(100, 142, 167);
+}
+#blue4 {
+    background:rgb(80, 116, 150);
+}
+#blue5 {
+    background: rgb(49, 82, 114);
+}
+
+#green1 {
+    background:rgb(158, 190, 186);
+}
+#green2 {
+    background:rgb(127, 182, 165);
+}
+#green3 {
+    background:rgb(98, 167, 146);
+}
+#green4 {
+    background:rgb(65, 134, 114);
+}
+#green5 {
+    background:rgb(47, 110, 100);
+}
+
+#beige1 {
+    background:rgb(241, 240, 235);
+}
+#beige2 {
+    background: rgb(247, 246, 230);
+}
+#beige3 {
+    background: rgb(247, 246, 218);
+}
+#beige4 {
+    background: rgb(243, 238, 209);
+}
+#beige5 {
+    background: rgb(236, 226, 192);
+}
+
