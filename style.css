@@ -87,49 +87,83 @@ h3 {
 
 /*TYPOGRAPHY*/
 
+.letters, 
+.weight {
+  display: inline-block;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.letters-row {
+  text-align: center;
+  margin: 10px;
+}
+
 table {
   margin: auto; 
 }
 
-td {
-  align: center;
-}
-
-/*space between each typography*/
+/*space between each typography, and font-size of typo's tittles*/
 
 #typo1,
 #typo2,
 #typo3 {
   margin-top: 20px;
+  font-size: 25px;
 }
 
 /*font-size and font-weight of each group of letters*/
 
-td h1 {
-  font-size: 65px;
+.letters-row h1 {
+  font-size: 55px;
   font-weight: 1000;
 }
-td h2 {
-  font-size: 55px;
+.letters-row  h2 {
+  font-size: 47px;
+  font-weight: 800;
 }
-td h3 {
-  font-size: 45px;
+.letters-row  h3 {
+  font-size: 40px;
+  font-weight: 600;
 }
-td h4 {
-  font-size: 35px;
+.letters-row  h4 {
+  font-size: 33px;
+  font-weight: 400;
 }
-td h5 {
-  font-size: 25px;
+.letters-row  h5 {
+  font-size: 26px;
+  font-weight: 200;
 }
-td h6 {
-  font-size: 15px;
+.letters-row  h6 {
+  font-size: 19px;
   font-weight: 100;
 }
 
 /*weight of each weight description*/
 
-.extra-bold {
+.letters-weight h1 {
   font-weight: 1000;
+  font-size: 22px
+}
+.letters-weight h2 {
+  font-weight: 800;
+  font-size: 22px
+}
+.letters-weight h3 {
+  font-weight: 600;
+  font-size: 22px
+}
+.letters-weight h4 {
+  font-weight: 400;
+  font-size: 22px
+}
+.letters-weight h5 {
+  font-weight: 200;
+  font-size: 22px
+}
+.letters-weight h6 {
+  font-weight: 100;
+  font-size: 22px
 }
 
 
@@ -146,7 +180,7 @@ td h6 {
 }
 
 /*center all circles on the page*/
-.raw-circles {
+#raw-circles {
   text-align: center;
 }
 
@@ -157,7 +191,6 @@ td h6 {
   height: 80px; 
   display: inline-block;
   margin: 10px 3px 10px 3px;
-  text-align: center;
 }
 
 /*circles colors*/
