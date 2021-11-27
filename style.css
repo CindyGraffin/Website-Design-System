@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "comforter";
+  src: url("ressources/fonts/Comforter/comforter-v1-latin-regular.ttf") format("truetype"),
+       url("ressources/fonts/Comforter/comforter-v1-latin-regular.woff") format("woff"),
+       url("ressources/fonts/Comforter/comforter-v1-latin-regular.woff2") format("woff2");
+}
+
+
+
+
 /*BODY*/
 * {
   margin: 0;
@@ -86,8 +96,11 @@ h3 {
 
 
 /*TYPOGRAPHY*/
+.comforter {
+  font-family: 'comforter';
+}
 
-.letters, 
+.letters,
 .weight {
   display: inline-block;
   text-align: center;
