@@ -1,8 +1,22 @@
+/* FONT-FAMILIES downloaded on google fonts*/
+
+@font-face{
+  font-family: "shadow";
+  src: url("ressources/fonts/Shadows_Into_Light/shadows-into-light-v10-latin-regular.ttf") format("truetype"),
+       url("ressources/fonts/Shadows_Into_Light/shadows-into-light-v10-latin-regular.woff") format("woff"),
+       url("ressources/fonts/Shadows_Into_Light/shadows-into-light-v10-latin-regular.woff2") format("woff2");
+}
 @font-face {
   font-family: "comforter";
   src: url("ressources/fonts/Comforter/comforter-v1-latin-regular.ttf") format("truetype"),
        url("ressources/fonts/Comforter/comforter-v1-latin-regular.woff") format("woff"),
        url("ressources/fonts/Comforter/comforter-v1-latin-regular.woff2") format("woff2");
+}
+@font-face{
+  font-family: "dancing";
+  src: url("ressources/fonts/Dancing_Script/dancing-script-v19-latin-regular.ttf") format("truetype"),
+       url("ressources/fonts/Shadows_Into_Light/shadows-into-light-v10-latin-regular.woff") format("woff"),
+       url("ressources/fonts/Shadows_Into_Light/shadows-into-light-v10-latin-regular.woff2") format("woff2");
 }
 
 
@@ -75,19 +89,15 @@ header h1 {
   margin: 60px 0px 50px 0px;
 }
 
-/*typography title*/
+/*TYPOGRAPHY TITLE*/
 
 #first {
   margin: 10px 0px 50px 0px;
   
 }
 
-
-
-
 /*SECTIONS SUBTITLES*/
 h3 {
-  top: 50px;
   text-align: center;
   font-size: 25px;
 }
@@ -96,9 +106,6 @@ h3 {
 
 
 /*TYPOGRAPHY*/
-.comforter {
-  font-family: 'comforter';
-}
 
 .letters,
 .weight {
@@ -123,6 +130,18 @@ table {
 #typo3 {
   margin-top: 20px;
   font-size: 25px;
+}
+
+/*font-family of each group*/
+
+.comforter {
+  font-family: "comforter";
+}
+.shadow {
+  font-family: "shadow";
+}
+.dancing {
+  font-family: "dancing";
 }
 
 /*font-size and font-weight of each group of letters*/
