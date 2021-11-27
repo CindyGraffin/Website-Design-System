@@ -1,4 +1,4 @@
-/*Body*/
+/*BODY*/
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,11 @@
   ;
 }
 
-/* Navigation*/
+
+
+
+/* NAVIGATION*/
+
 nav {
   background-color: rgb(53, 53, 53);
   background-size: cover;
@@ -28,7 +32,11 @@ a {
   color: white;
 }
 
-/*Header*/
+
+
+
+/*HEADER*/
+
 header {
   background-image: url("ressources/images/band.jpg");
   background-size: cover;
@@ -43,10 +51,13 @@ header h1 {
   font-weight: 500;
 }
 
-/*Sections Titles*/
+
+
+
+/*SECTION TITLES*/
 
 .title {
-  border: 1px groove black;
+  border: 1px solid black;
   text-align: center;
   font-size: 40px;
   top: 50px;
@@ -54,12 +65,17 @@ header h1 {
   margin: 60px 0px 50px 0px;
 }
 
+/*typography title*/
+
 #first {
   margin: 10px 0px 50px 0px;
   
 }
 
-/*Division's Sections Titles*/
+
+
+
+/*SECTIONS SUBTITLES*/
 h3 {
   top: 50px;
   text-align: center;
@@ -69,60 +85,82 @@ h3 {
 
 
 
-/*ABOUT ME*/
-
-/*photo*/
-
-img {
-  border: 3px solid rgb(80, 80, 80);
-  max-width: 20%;
-  display: block;
-  height: auto;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-  size: 20px;
-}
-
-/*presentation text*/
-
-#me {
-  text-align: center;
-  font-weight: 500;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 20px;
-}
+/*TYPOGRAPHY*/
 
 table {
-  margin: auto;
+  margin: auto; 
 }
+
+td {
+  align: center;
+}
+
+/*space between each typography*/
 
 #typo1,
 #typo2,
 #typo3 {
-  margin: 10px 0px 0px 0px;
+  margin-top: 20px;
 }
 
-td {
-  padding: 10px;
-  align: center;
-  text-align: center;
+/*font-size and font-weight of each group of letters*/
+
+td h1 {
+  font-size: 65px;
+  font-weight: 1000;
+}
+td h2 {
+  font-size: 55px;
+}
+td h3 {
+  font-size: 45px;
+}
+td h4 {
+  font-size: 35px;
+}
+td h5 {
+  font-size: 25px;
+}
+td h6 {
+  font-size: 15px;
+  font-weight: 100;
 }
 
+/*weight of each weight description*/
+
+.extra-bold {
+  font-weight: 1000;
+}
+
+
+
+
+/*COLORS*/
+
+/*space between each color group*/
+
+#blue,
+#green,
+#beige {
+  margin-top: 15px;
+}
+
+/*center all circles on the page*/
 .raw-circles {
   text-align: center;
 }
 
+/*circles disposition*/
 .circle {
   border-radius: 50%;
   width: 80px;
-  height: 80px;
-  background: cadetblue;
+  height: 80px; 
   display: inline-block;
-  margin: 10px 2px 10px 2px;
+  margin: 10px 3px 10px 3px;
+  text-align: center;
 }
+
+/*circles colors*/
 
 #blue1 {
   background: rgb(167, 201, 216);
@@ -172,35 +210,50 @@ td {
   background: rgb(236, 226, 192);
 }
 
-td h1 {
-  font-size: 65px;
-}
-td h2 {
-  font-size: 55px;
-}
-td h3 {
-  font-size: 45px;
-}
-td h4 {
-  font-size: 35px;
-}
-td h5 {
-  font-size: 25px;
-}
-td h6 {
-  font-size: 15px;
+
+
+
+/*ABOUT ME*/
+
+/*photo*/
+
+img {
+  border: 3px solid rgb(80, 80, 80);
+  max-width: 20%;
+  display: block;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  size: 20px;
 }
 
-/*Footer*/
+/*presentation text*/
+
+#me {
+  text-align: center;
+  font-weight: 500;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+}
+
+span {
+  font-weight: 600;
+}
+
+
+
+
+/*FOOTER*/
 
 footer {
   background-color: rgb(53, 53, 53);
   color: white;
-  margin: 20px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 
 
-.extra-bold {
-  font-weight: 1000;
-}
+
