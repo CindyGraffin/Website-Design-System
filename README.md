@@ -17,17 +17,19 @@ In this project I made several sections:
 
 <div align="center">
   <kbd>
-    <img src="ressources/images/header-and-typo.png" width="250"/>
+    <img src="ressources/images/headerandtypo.png" width="400"/>
   </kbd>
 </div>
+<br>
 <div align="center">
   <kbd>
-    <img src="resources/images/colors.png" width="250"/>
+    <img src="ressources/images/colors.png" width="400"/>
   </kbd>
 </div>
+<br>
 <div align="center">
   <kbd>
-    <img src="resources/images/about-me.png" width="250"/>
+    <img src="ressources/images/aboutme.png" width="400"/>
   </kbd>
 </div>
 
